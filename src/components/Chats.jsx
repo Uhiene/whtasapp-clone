@@ -2,6 +2,7 @@ import React from 'react'
 import { FiEdit, FiMoreHorizontal } from 'react-icons/fi'
 import { VscSearch} from 'react-icons/vsc'
 import { GoArchive} from 'react-icons/go'
+import Contacts from './Contacts'
 
 const Chats = () => {
     return (
@@ -9,6 +10,7 @@ const Chats = () => {
             <Header/>
             <Search/>
             <Archived/>
+            <Contacts/>
         </div>
       )
 }
